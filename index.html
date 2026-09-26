@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sabiha — Portfolio</title>
+<meta name="description" content="Sabiha Sultana Mouri — ITM student interested in technology, design, business and digital products.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#home" class="nav__mark">✦ Sabiha Sultana Mouri</a>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="#home" class="nav__link" data-nav>Home</a></li>
+      <li><a href="#about" class="nav__link" data-nav>About</a></li>
+      <li><a href="#projects" class="nav__link" data-nav>Projects</a></li>
+      <li><a href="#skills" class="nav__link" data-nav>Skills</a></li>
+      <li><a href="#achievements" class="nav__link" data-nav>Achievements</a></li>
+      <li><a href="#contact" class="nav__link" data-nav>Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__inner container">
+      <p class="hero__eyebrow">Hi, I'm</p>
+      <h1 class="hero__name">Sabiha Sultana Mouri</h1>
+      <p class="hero__role">ITM Student — Technology, Design &amp; Business</p>
+
+      <p class="hero__intro">
+        I'm an Information Technology &amp; Management student figuring out where technology,
+        design and business meet. Most of my time goes into building small digital products,
+        making sense of data and learning how good tools and good decisions work together.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--secondary">View my projects</a>
+        <a href="CV.pdf" class="btn btn--secondary" download>Download CV</a>
+      </div>
+
+      <div class="hero__social">
+        <a href="https://github.com/sabihamouri">GitHub</a>
+        <a href="https://www.linkedin.com/in/sabiha-sultana-mouri?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:sabihasultanamouri@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" aria-label="Scroll to About section">
+      <span class="hero__scroll-line"></span>
+      Scroll
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about__grid">
+
+    <!-- Photo -->
+    <div class="about__media">
+      <div class="about__frame">
+        <img src="photo of me.jpeg" alt="My profile photo">
+      </div>
+    </div>
+
+    <!-- About content -->
+    <div class="about__content">
+
+      <p class="section-label">
+        A student learning<br>how things get built.
+      </p>
+
+      <h2 class="section-heading">About me</h2>
+
+      <div class="about__text">
+
+        <p>
+          I’m a BSc student in Information Technology &amp; Management at
+          Daffodil International University, with an interest in business,
+          people, technology, and data. I enjoy understanding how organizations
+          work and how technology and data can support better decisions.
+        </p>
+
+        <p>
+          Currently, I’m developing my skills in data analysis, business
+          intelligence and UI/UX design. I’m also exploring career paths in
+          HR and data-related roles while learning how people, data and
+          technology come together in the workplace.
+        </p>
+
+      </div>
+
+    </div>
+
+    <!-- About details -->
+    <div class="about__list">
+
+      <div class="about__list-item">
+        <span class="about__list-label">Currently learning</span>
+        <span class="about__list-value">
+          Power BI, data analysis and UI/UX design
+        </span>
+      </div>
+
+      <div class="about__list-item">
+        <span class="about__list-label">Interested in</span>
+        <span class="about__list-value">
+          UI/UX design, data visualization and business intelligence
+        </span>
+      </div>
+
+      <div class="about__list-item">
+        <span class="about__list-label">Looking to explore</span>
+        <span class="about__list-value">
+         How technology, data, and people come together in the workplace
+        </span>
+      </div>
+
+      <div class="about__list-item">
+        <span class="about__list-label">Enjoys working on</span>
+        <span class="about__list-value">
+          UI interface design 
+        </span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <!-- ============ PROJECTS ============ -->
+<section class="projects" id="projects">
+  <div class="container">
+
+    <div class="section-intro">
+      <p class="section-label">Some of my work</p>
+      <h2 class="section-heading">Projects</h2>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- RentAll BD -->
+      <article class="project-card project-card--lg">
+
+        <div class="project-card__body">
+          <span class="project-card__category">Business Model &amp; Web Platform</span>
+
+          <h3 class="project-card__title">RentAll BD</h3>
+
+          <p class="project-card__desc">
+            RentAll BD is a peer-to-peer rental platform designed for people
+            who need items such as cameras, tools and eventwear occasionally
+            but do not want to purchase them. The platform connects people
+            who need items temporarily with owners who can lend their unused
+            items. The project combines business model development with a
+            web-based platform concept and was developed as a team project.
+          </p>
+
+          <ul class="project-card__stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+
+          <div class="project-card__links">
+            <a href="[GITHUB_URL]" target="_blank" rel="noopener">GitHub</a>
+            <a href="[LIVE_DEMO_URL]" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- ধার দে -->
+      <article class="project-card">
+
+        <div class="project-card__body">
+          <span class="project-card__category">Full-Stack Development</span>
+
+          <h3 class="project-card__title">ধার দে</h3>
+
+          <p class="project-card__desc">
+            ধার দে is a Bengali-language web application designed to help
+            people track small informal debts between friends. Instead of
+            relying on memory or notebooks, users can keep track of who owes
+            whom and manage their debts more easily. The project focuses on
+            making debt tracking simple, social, and easy to use. It was
+            developed as a team project using full-stack web development.
+          </p>
+
+          <ul class="project-card__stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+          </ul>
+
+          <div class="project-card__links">
+            <a href="[GITHUB_URL]" target="_blank" rel="noopener">GitHub</a>
+            <a href="[LIVE_DEMO_URL]" target="_blank" rel="noopener">Live demo</a>
+          </div>
+        </div>
+
+      </article>
+
+
+      <!-- Campus Research Plus -->
+      <article class="project-card">
+
+        <div class="project-card__body">
+          <span class="project-card__category">UI/UX Design</span>
+
+          <h3 class="project-card__title">Campus Research Plus</h3>
+
+          <p class="project-card__desc">
+            Campus Research Plus is an individual project focused on
+            designing a user-friendly digital experience for students.
+            The project mainly focused on UI/UX design, with an emphasis
+            on creating a clear, accessible, and easy-to-use interface.
+          </p>
+
+          <ul class="project-card__stack">
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+
+        </div>
+
+      </article>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-intro">
+        <p class="section-label">Tools I'm working with</p>
+        <h2 class="section-heading">Skills</h2>
+        <p class="skills__note">Technologies and tools I've learned and am continuing to build proficiency in.</p>
+      </div>
+
+      <div class="skills__grid">
+
+        <div class="skills__category">
+          <h3 class="skills__title">Programming</h3>
+          <div class="skills__tags">
+            <span class="tag">Python</span>
+            <span class="tag">C</span>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__title">UI/UX &amp; Design</h3>
+          <div class="skills__tags">
+            <span class="tag">Figma</span>
+            <span class="tag">Canva</span>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__title">Web Development</h3>
+          <div class="skills__tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__title">Data &amp; Productivity</h3>
+          <div class="skills__tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">Microsoft Excel</span>
+            <span class="tag">Google Sheets</span>
+            <span class="tag">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__title">Tools &amp; Version Control</h3>
+          <div class="skills__tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+<section class="achievements" id="achievements">
+  <div class="container">
+
+    <div class="section-intro">
+      <p class="section-label">Recognition along the way</p>
+      <h2 class="section-heading">Achievements</h2>
+    </div>
+
+    <div class="achievements__list">
+
+      <!-- Startup InnovateX -->
+      <div class="achievement">
+        <div class="achievement__year">2026</div>
+
+        <div class="achievement__body">
+          <h3 class="achievement__title">First Runner-Up</h3>
+
+          <p class="achievement__org">Startup InnovateX</p>
+
+          <p class="achievement__desc">
+            Secured the first runner-up position as part of a team in the
+            Startup InnovateX competition.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- Art of Living Learning Exhibition -->
+      <div class="achievement">
+        <div class="achievement__year">2025</div>
+
+        <div class="achievement__body">
+          <h3 class="achievement__title">Top 10 Position</h3>
+
+          <p class="achievement__org">
+            Art of Living Learning Exhibition — Summer 2025
+          </p>
+
+          <p class="achievement__desc">
+            Secured a Top 10 position with our Animal Welfare project at the
+            Art of Living Learning Exhibition, Summer 2025.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="container contact__grid">
+
+    <div class="contact__intro">
+      <p class="section-label">Get in touch</p>
+
+      <h2 class="section-heading">Let's&nbsp;Connect</h2>
+
+      <p class="contact__text">
+        Open to internships, collaborations, and conversations about
+        technology, design and business. Feel free to reach out through
+        any of the platforms below.
+      </p>
+
+      <div class="contact__links">
+
+        <!-- Email -->
+        <a href="mailto:sabihasultanamouri@gmail.com" class="contact__link">
+          <span class="contact__link-label">Email</span>
+          <span class="contact__link-value">
+            sabihasultanamouri@gmail.com
+          </span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/sabiha-sultana-mouri?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+           target="_blank"
+           rel="noopener"
+           class="contact__link">
+          <span class="contact__link-label">LinkedIn</span>
+          <span class="contact__link-value">
+            LinkedIn Profile
+          </span>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/sabihamouri"
+           target="_blank"
+           rel="noopener"
+           class="contact__link">
+          <span class="contact__link-label">GitHub</span>
+          <span class="contact__link-value">
+            github.com/sabihamouri
+          </span>
+        </a>
+
+      </div>
+    </div>
+
+
+    <!-- Contact Form -->
+    <form class="contact__form" id="contactForm" novalidate>
+
+      <div class="form-field">
+        <label for="cf-name">Name</label>
+        <input
+          type="text"
+          id="cf-name"
+          name="name"
+          autocomplete="name"
+          required
+        >
+      </div>
+
+      <div class="form-field">
+        <label for="cf-email">Email</label>
+        <input
+          type="email"
+          id="cf-email"
+          name="email"
+          autocomplete="email"
+          required
+        >
+      </div>
+
+      <div class="form-field">
+        <label for="cf-subject">Subject</label>
+        <input
+          type="text"
+          id="cf-subject"
+          name="subject"
+          required
+        >
+      </div>
+
+      <div class="form-field">
+        <label for="cf-message">Message</label>
+        <textarea
+          id="cf-message"
+          name="message"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--primary btn--form">
+        Send Message
+      </button>
+
+      <p
+        class="form-status"
+        id="formStatus"
+        role="status"
+        aria-live="polite">
+      </p>
+
+    </form>
+
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+
+    <div class="footer__about">
+      <p class="footer__name">Sabiha Sultana Mouri</p>
+      <p class="footer__desc">ITM student exploring technology, design and business through the things I build.</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="footer__social">
+      <a href="https://github.com/sabihamouri" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/sabiha-sultana-mouri?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:sabihasultanamouri@gmail.com">Email</a>
+    </div>
+
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; <span id="year"></span> Sabiha Sultana Mouri. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
